@@ -2,10 +2,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: mandhar-app
+  name: yash-app
   namespace: clone
   labels:
-    app: mandhar-app
+    app: yash-app
 spec:
   ports:
   - name: http
@@ -13,6 +13,6 @@ spec:
     protocol: TCP
     targetPort: 3000
   selector:
-    app: mandhar-app
+    app: yash-app
   type: LoadBalancer
 ...

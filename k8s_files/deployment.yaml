@@ -2,19 +2,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mandhar-app
+  name: yash-app
   namespace: clone
   labels:
-    app: mandhar-app
+    app: yash-app
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: mandhar-app
+      app: yash-app
   template:
     metadata:
       labels:
-        app: mandhar-app
+        app: yash-app
     spec:
       containers:
       - name: amazone-prime-container

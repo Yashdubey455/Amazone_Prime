@@ -3,7 +3,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: yash-app
-  namespace: clone
+  namespace: amazon
   labels:
     app: yash-app
 spec:
